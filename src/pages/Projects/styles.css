@@ -122,3 +122,84 @@ div.description p {
     text-decoration: none;
     font-size: 16px;
 }
+
+
+
+section.project2 {
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #282828;
+    color: whitesmoke;
+}
+  
+section.project2 div.project2-content {
+    display: grid;
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+    grid-template-columns: 1fr 600px;
+    grid-template-areas: "project2-description project2-image-content";
+}
+  
+div.project2-image-content {
+    grid-area: project2-image-content;
+    padding-left: 50px;
+    height: 375px;
+    position: relative;
+}
+
+div.project2-image-content img {
+    width: 500px;
+    height: 375px;
+    border: 1px solid var(--title-color);
+    border-radius: 3px;
+    position: absolute;
+}
+
+div.project2-description {
+    grid-area: project2-description;
+    margin-left: 100px;
+    color: var(--title-color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div.project2-description p{
+    width: 600px;
+    line-height: 1.6em;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 25px 0;
+    color: whitesmoke;
+}
+
+
+
+div.icon-description {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 10px;  
+}
+
+div.language-description {
+    margin-left: 400px;
+}
+
+div.language-description img:nth-child(1) {
+    margin-right: 20px;
+}
+div.icon-description h3 {
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+div.description p {
+    margin-bottom: 40px;
+    color: whitesmoke;
+}
