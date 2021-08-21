@@ -113,12 +113,12 @@ svg.wave {
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .language-card {
-    margin: 30px 50px;
+    margin: 30px 30px;
     width: 350px;
     display: flex;
     flex-direction: column;

@@ -4,6 +4,8 @@ import About from './pages/About'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Contract from './pages/Contract'
+import Contact from './pages/Contact'
+import Footer from './pages/Footer'
 
 export default function App() {
 
@@ -15,6 +17,8 @@ export default function App() {
       <About />
       <Projects />
       <Contract />
+      <Contact />
+      <Footer />
     </>
     
     

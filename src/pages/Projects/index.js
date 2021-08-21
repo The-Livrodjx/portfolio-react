@@ -57,15 +57,15 @@ export default function Projects() {
                 </div>
             </section>
 
-            <section class="project2">
+            <section className="project2">
 
-                <div class="project2-content">
+                <div className="project2-content">
 
-                    <div class="project2-image-content">
-                        <img src="/images/projetoexemplo.PNG" class="platinumImage" alt="Purificadores de água e linha compact" />
+                    <div className="project2-image-content">
+                        <img src="/images/projetoexemplo.PNG" className="platinumImage" alt="Purificadores de água e linha compact" />
                     </div>
 
-                    <div class="project2-description">
+                    <div className="project2-description">
                         <h2>Guiaperguntas</h2>
                         <p>A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim utilizado na produção
                             gráfica, A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim utilizado na
@@ -81,13 +81,13 @@ export default function Projects() {
                             <h3>Construção de Website</h3>
                         </div>
 
-                        <div class="language-description">
+                        <div className="language-description">
                             <FaHtml5 color="#f16524" width="30px" height="30px" className="languageIcon" />
                             <FaCss3Alt color="#03ade1" width="30px" height="30px" className="languageIcon" />
                             <FaJsSquare color="#ffda3e" width="30px" height="30px" className="languageIcon" />
                         </div>
 
-                        <a href="/" class="projectsBtn">Conhecer</a>
+                        <a href="/" className="projectsBtn">Conhecer</a>
                     </div>
                 </div>
             </section>
