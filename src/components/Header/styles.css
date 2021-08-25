@@ -90,7 +90,7 @@
     color: #fff;
 }
 
-@media (max-width: 868px) {
+@media (max-width: 985px) {
     body.disabled {
         overflow: hidden;
     }
@@ -136,3 +136,21 @@
         margin-right: 0px;
     }
 }
+
+@media(max-width: 850px) {
+    .icon {
+        color: #222;
+    }
+
+    .cancel-btn {
+        color: #fff !important;
+    }
+}
+
+@media(max-width: 420px) {
+
+    section.home div.content {
+        margin-left: -50px;
+    }
+}
+

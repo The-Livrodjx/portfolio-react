@@ -1,0 +1,320 @@
+@media(max-width: 1260px) {
+  div.project2-description {
+    grid-area: project2-description;
+    margin-left: 50px;
+  }
+  div.project2-image-content img {
+    width: 480px;
+    height: 375px
+  }
+  div.description {
+    margin-left: -20px;
+  }
+  div.language-description {
+    margin-left: 300px;
+  }
+}
+
+@media(max-width: 1180px) {
+  div.description p {
+    width: 400px;
+  }
+
+  div.project2-image-content img {
+    width: 350px;
+    height: 275px;
+  }
+}
+
+@media(max-width: 1050px) {
+  div.project2-description p {
+    width: 500px;
+  }
+}
+
+@media(max-width: 970px) {
+
+  section.project1 div.content{
+    grid-template-columns: 1fr !important;
+      grid-template-areas:
+        "image-content "
+        "description" !important;
+        
+  }
+  
+  div.image-content {
+    
+    margin: 50px 150px;
+  }
+
+  div.image-content img {
+    width: 580px;
+    height: 375px;
+  }
+
+  div.description {
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  div.description h2 {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  div.description p {
+    width: 600px;
+  }
+
+  section.project2 div.project2-content{
+    grid-template-columns: 1fr !important;
+      grid-template-areas:
+        "project2-image-content "
+        "project2-description" !important;
+        
+  }
+  
+  div.project2-image-content {
+    
+    margin: 50px 150px;
+  }
+
+  div.project2-image-content img {
+    width: 580px;
+    height: 375px;
+  }
+  
+  div.project2-description {
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  div.project2-description h2 {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  div.project2-description p {
+    width: 600px;
+  }
+}
+
+@media(max-width: 870px) {
+
+  div.image-content {
+    margin: 50px 100px;
+  }
+
+  div.project2-image-content {
+    margin: 50px 100px;
+  }
+}
+
+@media(max-width: 750px) {
+
+  div.image-content {
+    margin: 50px 0px;
+  }
+
+  div.project2-image-content {
+    margin: 50px 0px;
+  }
+
+  div.projects-about > p {
+    width: 500px;
+  }
+}
+
+@media(max-width: 630px) {
+  div.image-content img {
+    width: 480px;
+    height: 350px;
+  }
+
+  div.project2-image-content img {
+    width: 480px;
+    height: 350px;
+  }
+}
+
+@media(max-width: 600px) {
+  div.description p {
+    width: 450px;
+  }
+
+  div.project2-description p {
+    width: 450px;
+  }
+}
+
+@media(max-width: 540px) {
+  div.projects-about > h1 {
+    text-align: center;
+  }
+}
+
+@media(max-width: 530px) {
+
+  div.image-content img {
+    width: 400px;
+    height: 350px;
+  }
+
+  div.project2-image-content img {
+    width: 400px;
+    height: 350px;
+  }
+
+  p#lastDescription {
+    margin-left: 20px;
+  }
+}
+
+@media(max-width: 480px) {
+  div.projects-about > p {
+    width: 350px;
+  }
+}
+
+@media(max-width: 470px) {
+  div.image-content img {
+    width: 300px;
+    height: 300px;
+  }
+  div.project2-image-content img {
+    width: 300px;
+    height: 300px;
+  }
+  p#lastDescription {
+    margin-left: 0px;
+  }
+}
+
+@media(max-width: 450px) {
+  div.description p {
+    width: 350px;
+  }
+
+  div.project2-description p {
+    width: 350px;
+  }
+
+  div.description h2 {
+    text-align: center;
+    margin-left: 60px;
+  }
+}
+
+@media(max-width: 411px) AND (max-height: 731px) {
+  div.description {
+    padding-left: 25px;
+  }
+
+  div.project2-description {
+    padding-left: 20px;
+  }
+}
+
+@media(max-width: 370px) AND (min-height: 500px) {
+  div.image-content img {
+    width: 250px;
+    height: 250px;
+  }
+
+  div.description {
+    padding-left: 0px;
+  }
+
+  div.project2-image-content img {
+    width: 250px;
+    height: 250px;
+  }
+
+  div.project2-description {
+    padding-left: 0px;
+  }
+}
+
+@media(max-width: 360px) AND (max-height: 640px) {
+  div.image-content img {  
+    margin-left: -20px;
+  }
+
+  div.project2-image-content img {
+    margin-left: -20px;
+  }
+}
+
+@media(max-width: 350px) {
+  div.image-content img {
+    width: 250px;
+    height: 250px;
+  }
+
+  div.project2-image-content img {
+    width: 250px;
+    height: 250px;
+  }
+
+  div.description p {
+    width: 280px;
+    margin-left: 20px;
+  }
+
+  div.project2-description p {
+    width: 280px;
+    margin-left: 20px;
+  }
+
+  p#lastDescription {
+    margin-left: 20px;
+  }
+}
+
+@media(max-width: 330px) {
+
+  div.language-description {
+    
+    margin: 20px 0px;
+  }
+
+  div.description p {
+    margin-left: 0px;
+  }
+
+  div.project2-description p {
+    margin-left: 0px;
+  }
+
+  div.description h2 {
+    text-align: center;
+    margin-left: 44px;
+  }
+
+  p#lastDescription {
+    margin-left: 0px;
+  }
+}
+
+@media(max-width: 300px) {
+
+  div.image-content img {
+    margin-left: -40px;
+  }
+
+  div.project2-image-content img {
+    margin-left: -40px;
+  }
+
+  div.projects-about > p {
+    width: 270px;
+  } 
+
+  div.description {
+    padding-left: 0px;
+  }
+
+  div.project2-description {
+    padding-left: 0px;
+  }
+}

@@ -1,0 +1,24 @@
+@media(max-width: 440px) {
+  section.contact h1 {
+    text-align: center;
+  }
+
+  section.contact p {
+    text-align: center;
+  }
+}
+
+@media(max-width: 400px) {
+  div.sci {
+    flex-direction: column;
+  }
+
+  .email-sci {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .email-sci svg {
+    margin-left: -20px
+  }
+}
+

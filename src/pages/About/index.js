@@ -3,7 +3,18 @@ import me from '../../assets/images/me.png'
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaNode, FaGitAlt } from 'react-icons/fa'
 import vscodeLogo from '../../assets/images/vscode.png'
 import './styles.css'
+import './responsiveness.css'
+
+
 export default function About() {
+
+    function handleScrollTo(event, elementId) {
+
+        event.preventDefault();
+        
+
+        document.getElementById(`${elementId}`).scrollIntoView({behavior: 'smooth'})
+    }
 
     return (
 
@@ -17,14 +28,14 @@ export default function About() {
                 </svg>
             </div>
 
-            <div className="sectionAboutMe">
+            <div className="sectionAboutMe" id="about">
                 <h1>Quem sou eu ?</h1>
 
                 <img src={me} alt="" />
 
-                <p className="quotation">Me chamo Lucas Alexandre, tenho atualmente 18 anos de idade e sou apaixonado por programação desde os 16. Comecei a programar e entender seus conceitos com a linguagem Python, mas após brincar bastante com a linguagem percebi que a minha vocação era realmente a área Web, desde então eu comecei a aprender linguagens base de Web, como por exemplo, HTML e CSS, logo após isso comecei a estudar PHP e assim comecei alguns projetos, mas tive que deixar a programação um pouco de lado e focar no ENEM, após passar na faculdade estou atualmente cursando sup. técnologo em Análise e desenvolvimento de sistemas pela Unip e voltei a fazer projetos mas dessa vez utilizando o framework Bootstrap.</p>
+                <p className="quotation">Me chamo Lucas Alexandre, tenho atualmente 19 anos de idade e sou apaixonado por programação desde os 16. Comecei a programar e entender seus conceitos com a linguagem Python, mas após brincar bastante com a linguagem percebi que a minha vocação era realmente a área Web, desde então eu comecei a aprender linguagens base de Web, como por exemplo, HTML e CSS, logo após isso comecei a estudar PHP e assim comecei alguns projetos, mas tive que deixar a programação um pouco de lado e focar no ENEM, após passar na faculdade estou atualmente cursando sup. técnologo em Análise e desenvolvimento de sistemas pela Unip e voltei a fazer projetos e sistemas usando Javascript e Node.js.</p>
 
-                <a href="/" className="projectsBtn">Ver projetos</a>
+                <a href="/" className="projectsBtn" onClick={e => handleScrollTo(e, 'projects')}>Ver projetos</a>
             </div>
 
             <div className="sectionAboutLanguages">
@@ -89,5 +100,6 @@ export default function About() {
                 </div>
             </div>
         </section>
+        
     )
 }

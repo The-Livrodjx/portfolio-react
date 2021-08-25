@@ -1,0 +1,169 @@
+@media(max-width: 1300px) AND (min-height: 500px) {
+  svg.wave {
+    top: 130vh !important;
+  }
+}
+
+@media(max-width: 1200px) AND (min-height: 500px) {
+  svg.wave {
+    top: 136vh !important;
+  }
+}
+
+@media(max-width: 1135px) AND (min-height: 500px) {
+  svg.wave {
+    top: 136vh !important;
+  }
+}
+
+@media(max-width: 1165px) AND (min-height: 500px) {
+  svg.wave {
+    top: 140vh !important;
+  }
+}
+
+@media(max-width: 975px) AND (min-height: 500px) {
+  svg.wave {
+    top: 146vh !important;
+  }
+}
+
+@media(max-width: 840px) AND (min-height: 500px) {
+  svg.wave {
+    top: 150vh !important;
+  }
+}
+
+@media(max-width: 650px) AND (min-height: 500px) {
+  svg.wave {
+    top: 158vh !important;
+  }
+}
+
+@media(max-width: 570px) AND (min-height: 500px) {
+  svg.wave {
+    top: 164vh !important;
+  }
+}
+
+@media(max-width: 435px) AND (min-height: 500px) {
+  svg.wave {
+    top: 168vh !important;
+  }
+}
+
+@media(max-width: 350px) AND (min-height: 500px) {
+  svg.wave {
+    top: 172vh !important;
+  }
+}
+
+
+@media(max-width: 1135px) AND (min-height: 700px){
+  svg.wave {
+    top: 98vh !important;
+  }
+}
+
+
+@media(max-width: 1040px) AND (min-height: 700px){
+  svg.wave {
+    top: 104vh !important;
+  }
+}
+@media(max-width: 1000px) {
+  .sectionAboutMe .quotation {
+    width: 700px;
+  }
+}
+
+@media(max-width: 860px) {
+  .sectionAboutLanguages h1  {
+    text-align: center;
+  }
+}
+
+@media(max-width: 850px) AND (min-height: 700px) {
+  svg.wave {
+    top: 108vh !important;
+  }
+}
+
+@media(max-width: 730px) AND (min-height: 700px) {
+  svg.wave {
+    top: 111vh !important;
+  }
+}
+
+@media(max-width: 700px) {
+
+  .sectionAboutMe .quotation {
+    width: 500px;
+  }
+}
+
+@media(max-width: 660px) {
+  .line {
+    font-size: 135%;
+  }
+}
+@media(max-width: 630px) AND (min-height: 700px) {
+  svg.wave {
+    top: 114vh !important;
+  }
+}
+
+@media(max-width: 540px) AND (min-height: 700px) {
+  svg.wave {
+    top: 117vh !important;
+  }
+}
+
+@media(max-width: 500px) {
+  .sectionAboutMe .quotation {
+    width: 350px;
+  }
+
+  .sectionAboutMe {
+    margin-bottom: 100px;
+  }
+}
+
+@media(max-width: 490px) {
+
+  .line {
+    font-size: 90%;
+  }
+}
+
+@media(max-width: 440px) AND (min-height: 700px) {
+  svg.wave {
+    top: 120vh !important;
+  }
+}
+
+@media(max-width: 350px) AND (min-height: 700px) {
+  svg.wave {
+    top: 122vh !important;
+  }
+  .sectionAboutMe h1 {
+    text-align: center;
+  }
+
+  .sectionAboutMe .quotation {
+    width: 200px;
+  }
+}
+
+@media(max-width: 320px) {
+  .line {
+    font-size: 70%;
+  }
+}
+
+@media(max-width: 300px) {
+
+  .sectionAboutLanguages h1 {
+    font-size: 2rem
+  }
+}

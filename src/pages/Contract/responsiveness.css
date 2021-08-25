@@ -1,0 +1,24 @@
+@media(max-width: 1050px) {
+
+  section.hireMe {
+    padding-top: 100px;
+  }
+}
+
+@media(max-width: 700px) {
+  div.all-the-reasons {
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 580px) {
+  section.hireMe h1 {
+    text-align: center;
+  }
+}
+
+@media(max-width: 330px) {
+  div.reason-card {
+    width: 275px;
+  }
+}

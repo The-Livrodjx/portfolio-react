@@ -6,7 +6,7 @@ export default function Footer () {
 
     return (
 
-        <section className="footer">
+        <section className="footer" id="footer">
             <p>Todos os direitos reservados © 2021 / Made with <span><FaHeart color="red" /></span> by: <a href="https://github.com/The-Livrodjx" rel="noreferrer" target="_blank">Livrodjx</a></p>
         </section>
     )

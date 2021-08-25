@@ -47,6 +47,9 @@ svg.wave {
     background-color: transparent;
 }
 
+svg.wave path{
+    fill: #282828;
+}
 .sectionAboutMe {
     background-color: #282828;
     position: relative;
